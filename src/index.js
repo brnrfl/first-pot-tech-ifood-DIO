@@ -1,8 +1,8 @@
-let nome = prompt("Escreva o nome do seu Herói:")
+let nome = prompt("Escreva o nome de seu Herói:")
 let nivel
 
 do {
-    nivel = prompt("Digite o nível do " + nome + " somente com números, lembrando que o nível máximo é 15 mil:")
+    nivel = prompt("Digite o nível de " + nome + " somente com números, lembrando que o nível máximo é 15 mil:")
     nivel = parseInt(nivel)
 } while (isNaN(nivel) || nivel <= 0 || nivel > 15000)
 
